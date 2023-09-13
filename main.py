@@ -4,9 +4,10 @@ from services.saver import save_all_information
 
 def main(save_pages, save_information):
     """
-    1. If save_pages is True -> all pages will be saved to 'data/{page}.html'
-    2. If save_information is True -> all data will be saved in 'results/results.json' (before executing
-    of this paragraph, make sure that paragraph 1 was completed before this and the page files are present in 'data')
+    1. Если save_pages имеет значение True -> все страницы будут сохранены в 'data/{page}.html'.
+    2. Если save_information имеет значение True -> все данные будут сохранены в 'results/results.json'
+    (перед выполнением данного пункта, убедитесь, что пункт 1 был успешно выполнен и файлы страниц присутствуют в
+    'data')
 
     :param save_pages:
     :param save_information:
