@@ -12,7 +12,7 @@ def appraisers_correction(appraisers):
 def get_parser_data():
     data = []
 
-    for page in sorted(os.listdir('data'), key=lambda filename: int(filename.split('.')[0])):
+    for page in sorted(os.listdir('data')[:-1], key=lambda filename: int(filename.split('.')[0])):
         with open(file=f'data/{page}', mode='r', encoding='utf-8') as file:
             src = file.read()
 
