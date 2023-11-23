@@ -5,11 +5,6 @@
 pip install -r requirements.txt
 ````
 
-## Технологии, которые использовались в данном парсере:
-- Asyncio
-- BeautifulSoup
-- Selenium
-
 ## Файл с результатами находиться в results/results.json и имеет следующий вид:
 
 ````
@@ -27,3 +22,8 @@ pip install -r requirements.txt
 ]
 ````
 
+## Технологии, которые использовались в данном парсере:
+- Asyncio
+- BeautifulSoup
+- Selenium
+  
